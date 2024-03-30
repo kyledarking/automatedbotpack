@@ -20,7 +20,7 @@ module.exports.run = async function({
     api.sendMessage(`Please provide a question or statement after 'ai'. For example: 'ai What is the capital of France?'`, event.threadID, event.messageID);
     return;
   }
-  api.sendMessage(`🔍 "${input}"`, event.threadID, event.messageID);
+  api.sendMessage(`🔍 𝙎𝙚𝙖𝙧𝙘𝙝𝙞𝙣𝙜"${input}"𝙥𝙡𝙚𝙖𝙨𝙚 𝙬𝙖𝙞𝙩....`, event.threadID, event.messageID);
   try {
     const {
       data
