@@ -2,7 +2,7 @@ module.exports.config = {
   name: 'help',
   version: '1.0.0',
   role: 0,
-  hasPrefix: true,
+  hasPrefix: false,
   aliases: ['info'],
   description: "Beginner's guide",
   usage: "Help [page] or [command]",
