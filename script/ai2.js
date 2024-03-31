@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 module.exports.config = {
-  name: "ai",
+  name: "ai2",
   version: "69",
   role: 0,
   credits: "OtinXSandip", // converted by kira
