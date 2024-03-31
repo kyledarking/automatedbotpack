@@ -6,7 +6,7 @@ module.exports.config = {
 	credits: "NTKhang",
 	cooldown: 5,
 	role: 2,
-	hasPrefix: true,
+	hasPrefix: false,
 	aliases: ["anti-change"],
 	description: {
 		vi: "Chống đổi thông tin box chat",
