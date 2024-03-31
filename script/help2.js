@@ -1,9 +1,9 @@
 module.exports.config = {
-	name: 'help',
+	name: 'help2',
 	version: '1.0.0',
 	role: 0,
 	hasPrefix: false,
-	aliases: ['help'],
+	aliases: ['help2'],
 	description: "Beginner's guide",
 	usage: "Help [page] or [command]",
 	credits: 'Develeoper',
