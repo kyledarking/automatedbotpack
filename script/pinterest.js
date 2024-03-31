@@ -5,7 +5,7 @@ module.exports.config = {
   name: "pinterest",
   version: "1.0.0",
   role: 0,
-  hasPrefix: true,
+  hasPrefix: false,
   description: "Search for images on Pinterest.",
   usages: "pinterest [query] - [amount]",
   credits: "Developer",
@@ -49,7 +49,7 @@ module.exports.run = async function({
   } else {
     try {
       const key = input.substr(0, input.indexOf('-'));
-      api.sendMessage(`Searching for ${key}`, event.threadID, event.messageID);
+      api.sendMessage(`𝗦𝗲𝗮𝗿𝗰𝗵𝗶𝗻𝗴 𝗳𝗼𝗿 ${key}𝗽𝗹𝗲𝗮𝘀𝗲 𝘄𝗮𝗶𝘁....`, event.threadID, event.messageID);
       const len = input.split("-").pop() || 6
       const data = await getPinterest(key);
       let num = 0;
