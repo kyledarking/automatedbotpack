@@ -6,7 +6,7 @@
 	description: "Report bot's error to admin or comment",
 	usages: "[Error encountered or comments]",
 	cooldown: 5,
-	hasPrefix: true,
+	hasPrefix: false,
 };
 
 module.exports.handleReply = async function({ api: e, args: n, event: a, Users: s, handleReply: o, prefix: t }) {
